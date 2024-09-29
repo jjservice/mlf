@@ -165,7 +165,7 @@ button {
     text-shadow: 2px 2px 4px gold;
     border: 2px solid gold;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     z-index: 1000;
 }
@@ -207,4 +207,21 @@ h6{
     background-color: #171717;
     border-radius: 20px;
     
+}
+.home-btn2 button{
+    border-radius: 10px;
+    color: gold;
+    background-image: none;
+    border: 4px solid goldenrod;
+    box-shadow: 2px 6px 10px magenta;
+   
+}
+.home-btn2 ion-icon{
+    font-size: 25px;
+}
+.home-btn2 button{
+    background-image: url(lollipop_4444GIF.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
