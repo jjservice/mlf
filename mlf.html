@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" 
+          rel="stylesheet">
+    <link rel="stylesheet" href="mlf.css">
+    <title>LOLLIPOP LYRICS</title>
+    
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1>LOLLIPOP<ion-icon name="pin"></ion-icon>LYRICS</h1>
+            <h6>JJPoweredIT<span><ion-icon name="bonfire-sharp"></ion-icon></span></h6>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Find Your Lyrics...">
+            <button id="searchBtn">
+                Search
+            </button>
+
+            <button id="clearBtn">
+                Clear
+            </button>
+        </div>
+        <div class="result-container" id="results"></div>
+    </div>
+    <div class="loading-container" id="loadingContainer">
+        <div class="loading-spinner"></div>
+    </div>
+     
+    <script src="mlf.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
