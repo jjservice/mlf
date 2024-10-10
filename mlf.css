@@ -41,7 +41,7 @@ input {
     border: 2px solid #e5e90c;
 }
 input:focus{
-   background:linear-gradient(magenta, gold);
+   background:linear-gradient(red, gold);
 }
  button:hover {
     color: white;
@@ -76,22 +76,21 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #171717;
-    border: 2px solid darkmagenta;
+    border: 2px solid darkblue;
 }
 #searchBtn:hover {
-    color: darkmagenta;
+    color: gold;
     background-color: white;
 }
 #clearBtn {
-    background: darkmagenta;
-    color:white;
+    background: darkblue;
+    color: white;
     text-shadow: 2px 2px 4px gold;
     border: 2px solid gold;
 }
 #clearBtn:hover {
-    color: darkmagenta;
+    color: maroon;
     background-color: bisque;
-    border: 2px solid darkmagenta;
  
 }
 .result-container {
@@ -105,7 +104,7 @@ button {
 }
 .result-card {
     margin-bottom: 20px;
-    background: darkmagenta;
+    background: darkblue;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 2px 6px 10px gold;
@@ -141,15 +140,16 @@ button {
     z-index: 1000;
     display: none;
     transition: display 0.3s ease-in-out;
-    background-image: url(lollipop_4444GIF.gif);
+    background-image: url(lollipop_3GIF.gif);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+
 }
 .loading-spinner {
-    border: 5px solid gold;
+    border: 5px solid darkblue;
     border-radius: 50%;
-    border-top: 5px solid darkmagenta;
+    border-top: 5px solid maroon;
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
@@ -160,7 +160,7 @@ button {
 }
 #backBtn {
     
-    background: darkmagenta;
+    background: maroon;
     color:white;
     text-shadow: 2px 2px 4px gold;
     border: 2px solid gold;
@@ -172,16 +172,13 @@ button {
 #backBtn:hover {
     color: white;
     text-shadow: 2px 2px 4px gold;
-    background-color: darkmagenta;
+    background-color: maroon;
 }
 h1{
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px gold;
-    background-image: url(lollipop_4444GIF.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to right,black,black,darkblue,lightgreen,maroon,black,black);
     border-radius: 100%;
 }
 h1 ion-icon{
@@ -193,7 +190,7 @@ h1 ion-icon{
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid gold;
-    box-shadow: 2px 2px 4px darkmagenta;
+    box-shadow: 2px 2px 4px darkblue;
     border-radius: 100%;
     padding: 5px 5px;
 }
@@ -201,9 +198,8 @@ h1 ion-icon{
 h6{ 
     font-size: 15px;
     color: gold;
-    text-shadow: 2px 2px 4px darkmagenta;
     text-align: center;
-    text-shadow: 2px 2px 4px darkmagenta;
+    text-shadow: 2px 2px 4px darkblue;
     background-color: #171717;
     border-radius: 20px;
     
@@ -213,7 +209,7 @@ h6{
     color: gold;
     background-image: none;
     border: 4px solid goldenrod;
-    box-shadow: 2px 6px 10px magenta;
+    box-shadow: 2px 6px 10px darkblue;
    
 }
 .home-btn2 ion-icon{
